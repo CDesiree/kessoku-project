@@ -1,0 +1,34 @@
+
+.header{
+  background: #000000;
+}
+
+.headerTitle{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    margin-top: 16px;
+}
+
+.site-layout-bg {
+  height: 100vh;
+  width: 100vw;
+  background-size: cover !important;
+  background: url("../assets/background-image.png");
+  background-repeat: repeat;
+}
+
+.logo-btn, .tour-btn, .merch-btn, .music-btn, .yt-btn, .fb-btn{
+    font-family: Arial;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #fff;
+    margin-top: 16px;
+}
