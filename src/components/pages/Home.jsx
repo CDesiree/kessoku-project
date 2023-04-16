@@ -1,5 +1,6 @@
 import React from "react";
 import cover from '../assets/kessoku-group.webp';
+import './Home.css'
 
 function Home() {
     return (
