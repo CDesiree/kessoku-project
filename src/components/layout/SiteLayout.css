@@ -7,8 +7,10 @@
   flex-wrap: wrap;
   padding: 15px;
   height: 100px;
+  width: 100vw;
   padding-left: 250px;
   padding-right: 350px;
+  position: fixed;
 }
 
 .site-layout-bg {
