@@ -1,11 +1,12 @@
 import React from "react";
+import cover from '../assets/kessoku-group.webp';
 
 function Home() {
     return (
         <>
         <div className="App">
             <div className="home-page">
-                <p>Home page contents</p>
+                <img src={cover} className="band-cover" alt="cover"/>
             </div>
         </div>
         </>
