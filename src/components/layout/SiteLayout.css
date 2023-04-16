@@ -12,11 +12,8 @@
 }
 
 .site-layout-bg {
-  height: 100vh;
-  width: 100vw;
-  background-size: cover !important;
   background: url("../assets/background-image.png");
-  background-repeat: repeat;
+  background-repeat: repeat !important;
 }
 
 .logo-cont{
