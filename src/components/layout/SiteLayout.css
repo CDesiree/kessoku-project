@@ -1,17 +1,14 @@
 
 .header{
   background: #000000;
-}
-
-.headerTitle{
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #fff;
-    margin-top: 16px;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px;
+  height: 100px;
+  padding-left: 250px;
+  padding-right: 350px;
 }
 
 .site-layout-bg {
@@ -22,13 +19,37 @@
   background-repeat: repeat;
 }
 
-.logo-btn, .tour-btn, .merch-btn, .music-btn, .yt-btn, .fb-btn{
-    font-family: Arial;
-    font-size: 14px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0px;
-    text-align: left;
-    color: #fff;
-    margin-top: 16px;
+.logo-cont{
+  margin-right: 30px;
+}
+
+.left-btn{
+  display: flex;
+  justify-content: center;
+}
+
+.tour-btn, .merch-btn, .music-btn{
+  font-family: Ink Free;
+  font-size: 30px;
+  font-weight: 900;
+  text-align: left;
+  color: #fff;
+  height: auto;
+}
+
+.fb-btn, .tw-btn{
+  font-size: 27px;
+  color: #fff;
+  height: auto;
+}
+
+.yt-btn{
+  font-size: 29px;
+  color: #fff;
+  height: auto;
+}
+
+.band-logo{
+  height: 60px;
+  width: 60px;
 }
