@@ -1,3 +1,55 @@
 .band-cover{
     padding-top: 150px;
 }
+
+.album-page{
+    background-color: rgb(59, 55, 55);
+    width: auto;
+    margin-top: 100px;
+    font-family: Ink Free;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: left;
+    color: #fff;
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.album1-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.album1-image img{
+    height: 500px;
+    width: 500px;
+    margin: 50px 10px 10px 600px;
+    /* margin-left: 300px; */
+}
+
+.album1-desc{
+    flex-basis: 50%;
+}
+
+.album2-row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+.album2-image {
+    flex-basis: 50%;
+}
+
+.album2-image img{
+    height: 500px;
+    width: 500px;
+}
+
+.album2-desc{
+    margin-left: 600px;
+    /* margin: 50px 10px 10px 600px; */
+}
