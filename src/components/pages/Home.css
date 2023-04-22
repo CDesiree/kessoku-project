@@ -25,12 +25,16 @@
 .album1-image img{
     height: 500px;
     width: 500px;
-    margin: 50px 10px 10px 600px;
-    /* margin-left: 300px; */
+    margin: 50px 10px 10px 300px;
 }
 
 .album1-desc{
     flex-basis: 50%;
+}
+
+.album1-desc p{
+    height: 500px;
+    width: 700px;
 }
 
 .album2-row{
@@ -50,6 +54,11 @@
 }
 
 .album2-desc{
-    margin-left: 600px;
+    margin-left: 300px;
     /* margin: 50px 10px 10px 600px; */
+}
+
+.album2-desc p{
+    height: 500px;
+    width: 500px;
 }
