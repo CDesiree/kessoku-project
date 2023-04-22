@@ -1,7 +1,8 @@
 import React from "react";
-import cover from '../assets/kessoku-group.webp';
+import cover from '../assets/kessoku-group.png';
 import album1 from '../assets/oasis-cover.jpg';
 import album2 from '../assets/abbeyroad-cover2.jpg'
+import aboutImage from '../assets/about-image.jpg'
 import './Home.css'
 
 function Home() {
@@ -32,9 +33,13 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className="about">
-                        <p>Test</p>
+                <div className="about-page">
+                    <div className="about-b1-cntr">
+                        <img src={aboutImage} className="about-cover" alt="about"/>
+                        <h1>ABOUT THE BAND</h1>
+                        <p>Band description</p>
                     </div>
+                </div>
             </div>
         </div>
         </>
