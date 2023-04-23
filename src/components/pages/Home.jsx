@@ -33,6 +33,9 @@ function Home() {
                         </div>
                     </div>
                 </div>
+                <div className="tour-page" id="tour-preview">
+
+                </div>
                 <div className="about-page">
                     <div className="about-b1-cntr">
                         <img src={aboutImage} className="about-cover" alt="about"/>
