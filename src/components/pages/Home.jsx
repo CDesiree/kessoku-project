@@ -36,8 +36,11 @@ function Home() {
                 <div className="about-page">
                     <div className="about-b1-cntr">
                         <img src={aboutImage} className="about-cover" alt="about"/>
-                        <h1>ABOUT THE BAND</h1>
-                        <p>Band description</p>
+                        <h2>ABOUT THE BAND</h2>
+                    </div>
+                    <div className="about-b2-cntr">
+                        <p><em>Kessoku Band</em> is a fictional musical group in the manga series Bocchi the Rock! In the anime adaptation of the manga, Yoshino Aoyama, Sayumi Suzushiro, Saku Mizuno, and Ikumi Hasegawa provided the voices for Kessoku Band's members Hitori Gotō, Nijika Ijichi, Ryō Yamada, and Ikuyo Kita, respectively. After the airing of the fifth episode, it was announced that the group will release a self-titled album, consisting of 14 tracks including those featured in the anime series.</p>
+                        <p><em>Kessoku Band</em> debuted at number one on Billboard Japan's Download Albums chart dated December 28, 2022, with 5,877 downloads during the period dated December 19–25, as well as the Top Albums Sales chart, with 73,244 sales recorded during the period dated December 26, 2022 to January 1, 2023. <br/><br/>The album also entered the Hot Albums chart dated December 28 at number six, but rose to number one the following week. For Oricon's charts dated January 9, 2023, the album simultaneously topped the Albums Chart, Combined Albums Chart, and Digital Albums Chart. Kessoku Band remained at number one in the Digital Albums Chart for four consecutive weeks, marking the first time a female group achieved that record. The album was certified gold by the Recording Industry Association of Japan for reaching 100,000 physical sales.</p>
                     </div>
                 </div>
             </div>
