@@ -15,7 +15,9 @@
 
 .site-layout-bg {
   background: url("../assets/background-image.png");
-  background-repeat: repeat !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .logo-cont{
