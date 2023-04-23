@@ -8,9 +8,8 @@
     background-color: rgb(59, 55, 55);
     width: auto;
     margin-top: 100px;
-    font-family: Ink Free;
+    font-family: 'Quicksand', sans-serif;
     font-size: 30px;
-    font-weight: 900;
     text-align: left;
     color: #fff;
     height: auto;
@@ -33,6 +32,11 @@
 
 .album1-desc{
     flex-basis: 50%;
+}
+
+.album1-desc h1{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 100;
 }
 
 .album1-desc p{
@@ -59,6 +63,11 @@
 
 .album2-desc{
     margin-left: 300px;
+}
+
+.album2-desc h1{
+    font-family: 'Paytone One', sans-serif;
+    font-weight: 100;
 }
 
 .album2-desc p{
