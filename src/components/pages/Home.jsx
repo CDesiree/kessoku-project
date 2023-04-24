@@ -8,8 +8,18 @@ import './Home.css'
 
 
 function Home() {
-    var today = new Date();
-    var nextWeek = new Date(today.getTime() + 7 * 24 * 60 * 60 * 1000);
+    const getNextWeeks = (count) => {
+        const date = new Date();
+        const nextWeeks = [];
+
+        for (let i = 0; i < count; i++) {
+            date.setDate(date.getDate() + 7)
+            const dateString = date.toDateString().replace(/\d{4}$/, '');
+            nextWeeks.splice(0, 1, dateString);
+        }
+
+        return nextWeeks;
+    }
 
     return (
         <>
@@ -45,7 +55,7 @@ function Home() {
                                 <td className="tour-row">
                                     <table>
                                         <tr>
-                                            <th>{nextWeek.toDateString()}</th>
+                                            <th>{getNextWeeks(1)}</th>
                                         </tr>
                                         <tr>
                                             <td>SHELTER <br /> Shimokitazawa, Setagaya ward, Tokyo</td>
@@ -58,7 +68,7 @@ function Home() {
                                 <td className="tour-row">
                                     <table>
                                         <tr>
-                                            <th>{nextWeek.toDateString()}</th>
+                                            <th>{getNextWeeks(2)}</th>
                                         </tr>
                                         <tr>
                                             <td>Live House Fever <br /> Hanegi, Setagaya ward, Tokyo</td>
@@ -71,7 +81,7 @@ function Home() {
                                 <td className="tour-row">
                                     <table>
                                         <tr>
-                                            <th>{nextWeek.toDateString()}</th>
+                                            <th>{getNextWeeks(3)}</th>
                                         </tr>
                                         <tr>
                                             <td>Loft Shinjuku <br /> Kabukicho, Shinjuku City, Tokyo</td>
