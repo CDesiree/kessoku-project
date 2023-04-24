@@ -111,3 +111,42 @@
     font-weight: 400;
     width: 1000px;
 }
+
+/* tour page */
+
+.tour-page{
+    margin-top: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+
+.tour-main-table{
+    border-spacing: 10px;
+    padding: 30px;
+    background-color: rgb(102, 102, 102, 0.5);
+}
+
+.main-header{
+    font-family: 'Paytone One', sans-serif;
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tour-row{
+    padding-right: 400px;
+}
+
+.tour-page td{
+    padding-bottom: 10px;
+}
+
+.tour-row th, td{
+    text-align: left;
+}
