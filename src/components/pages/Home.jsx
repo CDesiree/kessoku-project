@@ -84,11 +84,39 @@ function Home() {
                                             <th>{getNextWeeks(3)}</th>
                                         </tr>
                                         <tr>
-                                            <td>Loft Shinjuku <br /> Kabukicho, Shinjuku City, Tokyo</td>
+                                            <td>Loft Shinjuku <br /> 
+                                            <a className="kamuro" href="https://youtu.be/g3jCAyPai2Y">Kamuro</a>
+                                            Kabukicho, Shinjuku City, Tokyo</td>
                                         </tr>
                                     </table>
                                 </td>
                                 <td><button>Button 3</button></td>
+                            </tr>
+                            <tr>
+                                <td className="tour-row">
+                                    <table>
+                                        <tr>
+                                            <th>{getNextWeeks(4)}</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Shibuya Take off 7 <br /> Udagawacho, Shibuya City, Tokyo</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td><button>Button 4</button></td>
+                            </tr>
+                            <tr>
+                                <td className="tour-row">
+                                    <table>
+                                        <tr>
+                                            <th>{getNextWeeks(5)}</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Kennedy House Ginza <br /> Chome-2 Ginza, Chuo City, Tokyo</td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td><button>Button 5</button></td>
                             </tr>
                         </table>
                     </div>

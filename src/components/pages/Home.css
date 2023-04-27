@@ -150,3 +150,8 @@
 .tour-row th, td{
     text-align: left;
 }
+
+.kamuro{
+    color: white;
+    text-decoration: line-through;
+}
