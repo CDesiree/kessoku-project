@@ -155,3 +155,62 @@
     color: white;
     text-decoration: line-through;
 }
+
+ .buy-tickets-btn {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    padding: 8px 16px;
+    border: 2px solid #333;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.buy-tickets-btn:before {
+    content: '';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.3s ease, width 0.3s ease-in-out, height 0.3s ease-in-out;
+    opacity: 0;
+}
+
+ .buy-tickets-btn:after {
+    content: attr(data-text);
+    color: #fff;
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: color 0.3s ease, width 0.3s ease-in-out, height 0.3s ease-in-out;
+    opacity: 0;
+    text-align: center;
+}
+
+.buy-tickets-btn:before {
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 79, 1);
+}
+
+.buy-tickets-btn:hover:before {
+    width: 400px;
+    height: 400px;
+}
+
+.buy-tickets-btn:hover:before,
+.buy-tickets-btn:hover:after {
+    opacity: 1;
+}
+
+.buy-tickets-btn:hover:after {
+    width: 100%;
+    height: 100%;
+}

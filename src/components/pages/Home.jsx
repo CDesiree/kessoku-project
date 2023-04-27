@@ -62,7 +62,7 @@ function Home() {
                                         </tr>
                                     </table>
                                 </td>
-                                <td><button>Button 1</button></td>
+                                <td><button className="buy-tickets-btn" data-text="Buy Tickets" >Buy Tickets</button></td>
                             </tr>
                             <tr>
                                 <td className="tour-row">
@@ -75,7 +75,7 @@ function Home() {
                                         </tr>
                                     </table>
                                 </td>
-                                <td><button>Button 2</button></td>
+                                <td><button className="buy-tickets-btn" data-text="Buy Tickets" >Buy Tickets</button></td>
                             </tr>
                             <tr>
                                 <td className="tour-row">
@@ -90,7 +90,7 @@ function Home() {
                                         </tr>
                                     </table>
                                 </td>
-                                <td><button>Button 3</button></td>
+                                <td><button className="buy-tickets-btn" data-text="Buy Tickets" >Buy Tickets</button></td>
                             </tr>
                             <tr>
                                 <td className="tour-row">
@@ -103,7 +103,7 @@ function Home() {
                                         </tr>
                                     </table>
                                 </td>
-                                <td><button>Button 4</button></td>
+                                <td><button className="buy-tickets-btn" data-text="Buy Tickets" >Buy Tickets</button></td>
                             </tr>
                             <tr>
                                 <td className="tour-row">
@@ -116,7 +116,7 @@ function Home() {
                                         </tr>
                                     </table>
                                 </td>
-                                <td><button>Button 5</button></td>
+                                <td><button className="buy-tickets-btn" data-text="Buy Tickets" >Buy Tickets</button></td>
                             </tr>
                         </table>
                     </div>
