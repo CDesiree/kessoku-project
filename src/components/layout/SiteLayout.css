@@ -11,6 +11,7 @@
   padding-left: 250px;
   padding-right: 350px;
   position: fixed;
+  z-index: 10;
 }
 
 .site-layout-bg {
