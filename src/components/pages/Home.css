@@ -128,7 +128,7 @@
 
 .tour-main-table{
     border-spacing: 10px;
-    padding: 30px;
+    padding: 30px 100px 30px 100px;
     background-color: rgb(102, 102, 102, 0.5);
 }
 
@@ -140,7 +140,7 @@
 }
 
 .tour-row{
-    padding-right: 400px;
+    padding-right: 300px;
 }
 
 .tour-page td{
