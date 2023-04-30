@@ -27,7 +27,7 @@ function SiteLayout() {
                             }}>
                         <div className="menu-cont">
                             <Button className="album-btn" type="text" href="#album-preview">ALBUM</Button>
-                            <Button className="tour-btn" type="text" href="/tour">TOUR</Button>
+                            <Button className="tour-btn" type="text" href="#tour-preview">TOUR</Button>
                             <Button className="merch-btn" type="text" href="/merch">MERCH</Button>
                             <Button className="music-btn" type="text" href="/music">MUSIC</Button>
                         </div>
