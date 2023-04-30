@@ -120,6 +120,11 @@ function Home() {
                             </tr>
                         </table>
                     </div>
+                    <div className="merch-page" id="merch-preview">
+                        <div className="merch-cont">
+                            <h3>MERCH</h3>
+                        </div>
+                    </div>
                     <div className="about-page">
                         <div className="about-b1-cntr">
                             <img src={aboutImage} className="about-cover" alt="about" />
